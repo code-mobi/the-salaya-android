@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.4" >
+
+        <ImageView
+            android:id="@+id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/ex_04"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+<ScrollView 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2" >
+         <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp"
+         >
+        
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/topic"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Salaya Mall มีพื้นที่กว่า 18 ไร่ ตั้งอยู่บนถนนศาลายา-บางภาษี ห่างมหาวิทยาลัยมหิดลเพียง 200 เมตร และห่างจากสถานีรถไฟศาลายา 400 เมตร มีกลุ่มลูกค้าที่อยู่บริเวณรอบพื้นที่ในรัศมี 10 กิโลเมตร กว่า 2 แสนคน โดย The Salaya Mall จะเป็นศูนย์รวมความทันสมัยแห่งแรกในย่านศาลายา ที่จะสร้างความสนุก เพลิดเพลินและแปลกใหม่ให้กับคุณ"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Project Component"
+            android:textColor="@color/topic"
+            android:textStyle="bold"
+            android:textSize="26sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="พื้นที่ทั้งหมด 18 ไร่"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="พื้นที่อาคาร : 7,096 ตารางเมตร"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="พื้นที่ส่วนที่ให้เช่า : 6,064 ตารางเมตร"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="พื้นที่จอดรถ : 500 คัน"
+            android:textColor="@color/text_grey"
+            android:textSize="16sp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+    
+</ScrollView>
+   
+    
+</LinearLayout>

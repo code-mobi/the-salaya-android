@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Salaya</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="sections">
+        <item>NEW&amp;EVENT</item>
+        <item>PROMOTION</item>
+        <item>CATEGORY</item>
+        <item>MAP</item>
+        <item>MORE</item>
+    </string-array>
+    <string-array name="events_title_mock">
+        <item>AIS Bangkok Countdown 2014</item>
+        <item>WMA: World MUAYTHAI Angles 2013</item>
+        <item>OHM CHATREE LIVE 2013</item>
+        <item>Midnight Sale</item>
+        <item>The NEON Carnival Staff Party by Kim Eng</item>
+        <item>AIS Bangkok Countdown 2014</item>
+        <item>WMA: World MUAYTHAI Angles 2013</item>
+        <item>OHM CHATREE LIVE 2013</item>
+        <item>Midnight Sale</item>
+        <item>The NEON Carnival Staff Party by Kim Eng</item>
+    </string-array>
+    <string-array name="events_description_mock">
+        <item>Count down to 2014 with AIS on Tuesday 31 December 2013 with AIS Bangkok Countdown 2014 @ Salaya at front squares Salaya and Rachadamri Road, get a chance to win prizes including Toyota Prius and enjoy concerts from many artists.</item>
+        <item>WMA: World MUAYTHAI Angles 2013, the 1st international female professional Thai boxing by searching for the beautiful boxers from around the world and compete in the origin country with rules and regulations of Thai boxing. WMA: World MUAYTHAI Angels 2013 will corporate with world wide television channels and broadcast the program internationally.</item>
+        <item>Exclusive concert by Ohm Chatree with the Academy Fantasia 1 to 10 singers, Tik Shiro &amp; Friends, Olarn Promjai, Music Union Session And The Mister Music Band in OHM CHATREE LIVE 2013 The Directors Cut Concert</item>
+        <item>To celebrate the end of the year, Salaya is holding a Salaya Midnight Sale with mini concerts by artists all period. Shopping and get special discounts from famous brands in store, begin your shopping time from 10.00 until midnight on 20  to 22 December 2013.</item>
+        <item>Join the modern style party, The NEON Carnival Staff Party by Kim Eng, packed with games, activities, prizes and shows that will make you feel like you actually are in a Neon Light carnival. </item>
+        <item>Count down to 2014 with AIS on Tuesday 31 December 2013 with AIS Bangkok Countdown 2014 @ Salaya at front squares Salaya and Rachadamri Road, get a chance to win prizes including Toyota Prius and enjoy concerts from many artists.</item>
+        <item>WMA: World MUAYTHAI Angles 2013, the 1st international female professional Thai boxing by searching for the beautiful boxers from around the world and compete in the origin country with rules and regulations of Thai boxing. WMA: World MUAYTHAI Angels 2013 will corporate with world wide television channels and broadcast the program internationally.</item>
+        <item>Exclusive concert by Ohm Chatree with the Academy Fantasia 1 to 10 singers, Tik Shiro &amp; Friends, Olarn Promjai, Music Union Session And The Mister Music Band in OHM CHATREE LIVE 2013 The Directors Cut Concert</item>
+        <item>To celebrate the end of the year, Salaya is holding a Salaya Midnight Sale with mini concerts by artists all period. Shopping and get special discounts from famous brands in store, begin your shopping time from 10.00 until midnight on 20  to 22 December 2013.</item>
+        <item>Join the modern style party, The NEON Carnival Staff Party by Kim Eng, packed with games, activities, prizes and shows that will make you feel like you actually are in a Neon Light carnival. </item>
+    </string-array>
+    <string-array name="promotion_title_mock">
+        <item>H.E. by Mango</item>
+        <item>Cath Kidston</item>
+        <item>Mango Touch</item>
+        <item>Giordano Happy Holiday</item>
+        <item>Merry Berry X mas by Sfree</item>
+        <item>Montra Retreat Health&amp;Spa</item>
+        <item>เสี่ยวหลงเปาไส้ช็อคโกแลตลาวา ที่ Din Tai Fung</item>
+    </string-array>
+    <string-array name="promotion_description_mock">
+        <item>H.E. by Mango End of season sale ลดราคา 50 % ตั้งแต่วันที่ 19 ถึง 31 ธันวาคม 2556</item>
+        <item>Special Gift Set for Christmas ลดราคาสูงสุดถึง 40 % ตั้งแต่วันที่ 18 ถึง 25 ธันวาคม 2556</item>
+        <item>พิเศษลดสูงสุด 50% ที่ร้าน MANGO &amp; MANGO TOUCH ใกล้บ้านคุณ เริ่มแล้ววันนี้</item>
+        <item>ซื้อสินค้าครบ 5,900 บาท (ยอดซื้อสุทธิ) แถมกระเป๋าเดินทางมูลค่า 2,290 บาทจำนวน  1 ใบ โดยเริ่มตั้งแต่วันนี้จนกว่าสินค้าจะหมด ตั้งแต่วันนี้ ถึง 8 มกราคม 2557  โปรโมชั่น Happy Holiday ลด 30% สำหรับสินค้าราคาปกติ</item>
+        <item>สฟรี (Sfree) และ พาร์เฟริโอ (Parferio) ร้านไอศกรีมและขนมหวานเพื่อสุขภาพจากญี่ปุ่น เชิญชวนเฉลิมฉลองเทศกาลแห่งความสุขส่งท้ายปีเก่า ต้อนรับปีใหม่ กับเมนู “Merry Berry X’mas” กับ 5 เมนูพิเศษ วันนี้ ถึง 10 ม.ค. 57 ที่ร้านสฟรีและพาร์เฟริโอ ทุกสาขา</item>
+        <item>ขอเชิญร่วมฉลองเปิดสาขาใหม่ลด10% ตั่งแต่วันนี้จนถึงตลอดเดือนธ.ค กับ Massageทุกรายการ อาทิเช่น Foot, Thai, Aromatherapy, Body Scrub, Aromatic Hot stone และอื่นๆอีกมากมายที่ชั้น 3 โซน Forum เซ็นทรัลเวิลด์</item>
+        <item>ติ่นไท่ฟงชวนทุกท่านลิ้มลองเสี่ยวหลงเปาไส้ช็อคโกแลตลาวา (Steamed Red Bean Dumplings with Chocolate Lava) ในราคาสุดพิเศษ ราคา : 165 บาท (6 ลูก) หรือ 220 บาท (10 ลูก) (ราคายังไม่รวมภาษีมูลค่าเพิ่มและค่าบริการ)</item>
+    </string-array>
+
+</resources>

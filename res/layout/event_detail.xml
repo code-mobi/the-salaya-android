@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="10dp"
+                android:background="@drawable/bg_border"
+                android:contentDescription="Event Thumbnail"
+                android:src="@drawable/thumb_event_empty" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/share_facebook"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:background="@drawable/share_facebook">
+                
+            </ImageButton>
+
+            <TextView
+                android:id="@+id/title_event_detail_tv"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ellipsize="marquee"
+                android:gravity="center_vertical"
+                android:text="Title of event"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/description_event_detail_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:text="Title of event"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

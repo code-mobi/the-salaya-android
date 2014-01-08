@@ -1,0 +1,69 @@
+<resources>
+
+    <!--
+        Base application theme for API 11+. This theme completely replaces
+        AppBaseTheme from res/values/styles.xml on API 11+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style>
+    
+    <style name="TheSalayaTheme" parent="Theme.Sherlock.Light">
+        <item name="vpiTabPageIndicatorStyle">@style/CustomTabPageIndicator</item>
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Thesalaya</item>
+         <item name="android:actionBarStyle">@style/ActionBar.Transparent.Thesalaya</item>
+	    <!-- <item name="actionBarStyle">@style/Widget.TheSalayaTheme.ActionBar</item>  -->
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Thesalaya</item>
+        <item name="actionBarItemBackground">@drawable/selectable_background_thesalaya</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Thesalaya</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Thesalaya</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Thesalaya</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_thesalaya</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_thesalaya</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Thesalaya</item>
+    </style>
+    
+    <style name="CustomTabPageIndicator" parent="Widget.TabPageIndicator">
+        <item name="android:background">@drawable/tab_indicator_ab_thesalaya</item>
+        <item name="android:textAppearance">@style/CustomTabPageIndicator.Text</item>
+        <item name="android:textColor">#FF555555</item>
+        <item name="android:textSize">14sp</item>
+	 	<item name="android:divider">@drawable/custom_tab_indicator_divider</item>
+        <item name="android:dividerPadding">10dp</item>
+        <item name="android:showDividers">middle</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:fadingEdge">horizontal</item>
+        <item name="android:fadingEdgeLength">10dp</item>
+    </style>
+
+    <style name="CustomTabPageIndicator.Text" parent="android:TextAppearance.Medium">
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+<!--      <style name="Widget.TheSalayaTheme.ActionBar" parent="Widget.Sherlock.ActionBar">
+    	<item name="android:background">#275015</item>
+    	<item name="background">#275015</item>
+    	<item name="titleTextStyle">@style/TheSalayaTheme.ActionBar.TitleTextStyle</item>
+    	<item name="android:titleTextStyle">@style/TheSalayaTheme.ActionBar.TitleTextStyle</item>
+	</style> -->
+	
+	<style name="ActionBar.Transparent.Thesalaya" parent="Widget.Sherlock.ActionBar">
+       <!--  <item name="android:background">@drawable/ab_transparent_thesalaya</item>  -->
+        <item name="android:progressBarStyle">@style/ProgressBar.Thesalaya</item> 
+        <item name="android:background">#275015</item>
+    	<item name="background">#275015</item>
+    	<item name="titleTextStyle">@style/TheSalayaTheme.ActionBar.TitleTextStyle</item>
+    	<item name="android:titleTextStyle">@style/TheSalayaTheme.ActionBar.TitleTextStyle</item>
+    </style>
+	
+    <style name="TheSalayaTheme.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+		<item name="android:textColor">#FFFFFF</item>		
+		<item name="android:textSize">20sp</item>		
+	</style>
+	
+    
+	
+
+	
+</resources>
